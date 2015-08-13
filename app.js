@@ -1191,6 +1191,6 @@ server.del('/DVP/API/' + hostVersion + '/ARDS/queue/:sessionid', function (req, 
 });
 
 
-server.listen(2225, function () {
+server.listen(hostPort, function () {
     console.log('%s listening at %s', server.name, server.url);
 });

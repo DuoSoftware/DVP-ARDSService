@@ -1,0 +1,29 @@
+{
+  "name": "DVP-ARDSService",
+  "version": "1.0.0",
+  "description": "Service Of ARDS",
+  "main": "app.js",
+  "dependencies": {
+    "config": "^1.15.0",
+    "dvp-ardscommon": "^1.0.0",
+    "dvp-common": "^0.0.2",
+    "node-uuid": "^1.4.3",
+    "restify": "^3.0.3",
+    "request": "^2.60.0",
+    "stringify": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DuoSoftware/DVP-ARDSService.git"
+  },
+  "author": "heshan.i@duosoftware.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuoSoftware/DVP-ARDSService/issues"
+  },
+  "homepage": "https://github.com/DuoSoftware/DVP-ARDSService"
+}

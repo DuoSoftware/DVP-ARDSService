@@ -1,17 +1,17 @@
 ﻿var restify = require('restify');
-var redisHandler = require('ArdsCommon/redisHandler.js');
+var redisHandler = require('dvp-ardscommon/redisHandler.js');
 var util = require('util');
-var resourceHandler = require('ArdsCommon/ResourceHandler.js');
-var requestHandler = require('ArdsCommon/RequestHandler.js');
-var reqServerHandler = require('ArdsCommon/ReqServerHandler.js');
-var reqMetaHandler = require('ArdsCommon/ReqMetaDataHandler.js');
-var reqQueueHandler = require('ArdsCommon/ReqQueueHandler.js');
-var authHandler = require('ArdsCommon/Authorization.js');
-var infoLogger = require('ArdsCommon/InformationLogger.js');
-var resStateMapper = require('ArdsCommon/ResourceStateMapper.js');
+var resourceHandler = require('dvp-ardscommon/ResourceHandler.js');
+var requestHandler = require('dvp-ardscommon/RequestHandler.js');
+var reqServerHandler = require('dvp-ardscommon/ReqServerHandler.js');
+var reqMetaHandler = require('dvp-ardscommon/ReqMetaDataHandler.js');
+var reqQueueHandler = require('dvp-ardscommon/ReqQueueHandler.js');
+var authHandler = require('dvp-ardscommon/Authorization.js');
+var infoLogger = require('dvp-ardscommon/InformationLogger.js');
+var resStateMapper = require('dvp-ardscommon/ResourceStateMapper.js');
 var uuid = require('node-uuid');
 var config = require('config');
-var messageFormatter = require('DVP-Common/CommonMessageGenerator/ClientMessageJsonFormatter.js');
+var messageFormatter = require('dvp-common/CommonMessageGenerator/ClientMessageJsonFormatter.js');
 
 var server = restify.createServer({
     name: 'ArdsServer',

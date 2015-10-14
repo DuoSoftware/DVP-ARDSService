@@ -1,5 +1,5 @@
 ﻿var restify = require('restify');
-var redisHandler = require('dvp-ardscommon/redisHandler.js');
+var redisHandler = require('dvp-ardscommon/RedisHandler.js');
 var util = require('util');
 var resourceHandler = require('dvp-ardscommon/ResourceHandler.js');
 var requestHandler = require('dvp-ardscommon/RequestHandler.js');

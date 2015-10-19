@@ -10,6 +10,8 @@
 		"routingServiceVersion": "SYS_ARDSROUTINGENGINE_VERSION"
 	},
 	"Host": {
+		"LBIP":"LB_FRONTEND",
+		"LBPort":"LB_PORT",
 		"Port": "HOST_ARDSSERVICE_PORT",
 		"Version": "HOST_VERSION"
 	},

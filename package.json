@@ -6,7 +6,7 @@
   "dependencies": {
     "config": "^1.19.0",
     "dvp-ardscommon": "^1.0.8",
-    "dvp-common": "^0.8.4",
+    "dvp-common": "1.1.0",
     "node-uuid": "^1.4.7",
     "request": "^2.69.0",
     "restify": "^4.0.3",
